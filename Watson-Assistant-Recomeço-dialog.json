@@ -1,0 +1,2217 @@
+{
+  "intents": [
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Agradecida"
+        },
+        {
+          "text": "Agradecido"
+        },
+        {
+          "text": "Agradeço"
+        },
+        {
+          "text": "Agradeço pela paciência"
+        },
+        {
+          "text": "De nada"
+        },
+        {
+          "text": "Meus agradecimentos"
+        },
+        {
+          "text": "meus honestos agradecimentos"
+        },
+        {
+          "text": "Meus sinceros agradecimentos"
+        },
+        {
+          "text": "Muito Obrigado"
+        },
+        {
+          "text": "obg"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Obrigado, tenha um bom dia"
+        },
+        {
+          "text": "Tamo junto"
+        },
+        {
+          "text": "tmj"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "Vlw"
+        }
+      ]
+    },
+    {
+      "intent": "autocuidado",
+      "examples": [
+        {
+          "text": "Acabei de passar por um desastre, o que eu faço?"
+        },
+        {
+          "text": "autoajuda"
+        },
+        {
+          "text": "autocuidado"
+        },
+        {
+          "text": "Autocuidado pós desastre"
+        },
+        {
+          "text": "autocuidados"
+        },
+        {
+          "text": "como ajudar a mim mesm"
+        },
+        {
+          "text": "como cuidar de mim mesm"
+        },
+        {
+          "text": "Como faço para recuperar de um desastre?"
+        },
+        {
+          "text": "Como fazer autoajuda"
+        },
+        {
+          "text": "como fazer autocuidado"
+        },
+        {
+          "text": "como me cuidar"
+        },
+        {
+          "text": "cuidar de mim mesm"
+        },
+        {
+          "text": "Desastre"
+        },
+        {
+          "text": "Desastre autocuidado"
+        },
+        {
+          "text": "Dicas específicas de autocuidado"
+        },
+        {
+          "text": "Informações sobre como o tipo de evento"
+        },
+        {
+          "text": "me cuidar"
+        },
+        {
+          "text": "não sei cuidar de mim mesm"
+        },
+        {
+          "text": "Passei por um desastre"
+        },
+        {
+          "text": "preciso aprender a me cuidar"
+        },
+        {
+          "text": "preciso aprender autoajuda"
+        },
+        {
+          "text": "preciso aprender autocuidado"
+        },
+        {
+          "text": "Quero me cuidar"
+        },
+        {
+          "text": "Quero melhorar"
+        },
+        {
+          "text": "técnicas gerais"
+        },
+        {
+          "text": "Técnicas gerais de autocuidado"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bem-vindo",
+      "examples": [
+        {
+          "text": "alguem"
+        },
+        {
+          "text": "Alguém ai"
+        },
+        {
+          "text": "bem vindo"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "começar"
+        },
+        {
+          "text": "Como vai"
+        },
+        {
+          "text": "eae"
+        },
+        {
+          "text": "Eai"
+        },
+        {
+          "text": "E aí"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Oi, como posso usar isso"
+        },
+        {
+          "text": "Oi, tudo bem?"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Olá IA"
+        },
+        {
+          "text": "Olá SimplifyHC"
+        },
+        {
+          "text": "Olá, tudo bem?"
+        },
+        {
+          "text": "Olá Watson"
+        },
+        {
+          "text": "Opa"
+        },
+        {
+          "text": "Salve"
+        },
+        {
+          "text": "/start"
+        },
+        {
+          "text": "start"
+        },
+        {
+          "text": "Watson"
+        },
+        {
+          "text": "welcome"
+        }
+      ]
+    },
+    {
+      "intent": "emergencia",
+      "examples": [
+        {
+          "text": "Como faço para encontrar uma ONG com psicológo"
+        },
+        {
+          "text": "Como faço para encontrar uma universidade com psicológo"
+        },
+        {
+          "text": "Como faço para encontrar um psicológo"
+        },
+        {
+          "text": "Contato"
+        },
+        {
+          "text": "contato Recomeço"
+        },
+        {
+          "text": "Contatos"
+        },
+        {
+          "text": "Contatos de emergência"
+        },
+        {
+          "text": "emergencia"
+        },
+        {
+          "text": "emergencia agora"
+        },
+        {
+          "text": "emergency"
+        },
+        {
+          "text": "Estou tendo uma crise"
+        },
+        {
+          "text": "Estou tendo um ataque"
+        },
+        {
+          "text": "É uma emergencia"
+        },
+        {
+          "text": "Meu familiar está morrendo"
+        },
+        {
+          "text": "Minha mãe está em uma emergencia"
+        },
+        {
+          "text": "Número de emergência"
+        },
+        {
+          "text": "Onde encontro os contatos"
+        },
+        {
+          "text": "Perigo"
+        },
+        {
+          "text": "preciso de ajuda agora!"
+        },
+        {
+          "text": "preciso de ajuda emergencial"
+        },
+        {
+          "text": "Preciso de ajuda nesse momento"
+        },
+        {
+          "text": "preciso de assistencia emergencial"
+        },
+        {
+          "text": "tenho emergencia"
+        },
+        {
+          "text": "Tenho uma emergencia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "entender_emocoes",
+      "examples": [
+        {
+          "text": "comecei a evitar lugares"
+        },
+        {
+          "text": "Entender minha emoções"
+        },
+        {
+          "text": "entender minhas emoções"
+        },
+        {
+          "text": "estou ansioso"
+        },
+        {
+          "text": "estou com medo"
+        },
+        {
+          "text": "estou em alerta"
+        },
+        {
+          "text": "Estou sentindo mais sono"
+        },
+        {
+          "text": "estou sofrendo muito"
+        },
+        {
+          "text": "me sinto ansioso"
+        },
+        {
+          "text": "me sinto mal"
+        },
+        {
+          "text": "Me sinto vazio"
+        },
+        {
+          "text": "Minha vida é Sinto que minha vida mudou completamente e de forma negativa após o evento. sem valor"
+        },
+        {
+          "text": "não aguento mais"
+        },
+        {
+          "text": "não consigo dormir"
+        },
+        {
+          "text": "Não entendo o porque eu ajo de uma certa forma"
+        },
+        {
+          "text": "Não entendo o porque me sinto assim"
+        },
+        {
+          "text": "Não entendo o porque meu corpo doi"
+        },
+        {
+          "text": "preciso conversar com alguém"
+        },
+        {
+          "text": "preciso de ajuda emocional"
+        },
+        {
+          "text": "reações comuns"
+        },
+        {
+          "text": "reações comuns ao trauma"
+        },
+        {
+          "text": "reações emocionais"
+        },
+        {
+          "text": "sinto menos interesse nas coisas"
+        },
+        {
+          "text": "sinto que minha vida esta negativa"
+        },
+        {
+          "text": "tenho me irritado mais fácilmente"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faq",
+      "examples": [
+        {
+          "text": "busco o faq"
+        },
+        {
+          "text": "do que o projeto se trata"
+        },
+        {
+          "text": "Dúvidas Recomeço"
+        },
+        {
+          "text": "Dúvidas sobre o Recomeço"
+        },
+        {
+          "text": "faq"
+        },
+        {
+          "text": "gostaria de ver o faq"
+        },
+        {
+          "text": "não entendo esse site"
+        },
+        {
+          "text": "não entendo o conteúdo do site"
+        },
+        {
+          "text": "não entendo o proposito do site"
+        },
+        {
+          "text": "o que é isso aqui"
+        },
+        {
+          "text": "pode me dar mais informações sobre o serviço?"
+        },
+        {
+          "text": "Sobre o projeto"
+        },
+        {
+          "text": "sobre o que é isso"
+        },
+        {
+          "text": "sobre o que é o site"
+        },
+        {
+          "text": "tem algo que eu deveria saber?"
+        },
+        {
+          "text": "tem algo que eu deveria saber antes de usar o site"
+        },
+        {
+          "text": "Tenho algumas perguntas"
+        },
+        {
+          "text": "tenho dúvidas"
+        },
+        {
+          "text": "tenho duvidas sobre o programa"
+        },
+        {
+          "text": "ver o faq"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "busco menu"
+        },
+        {
+          "text": "busco o menu"
+        },
+        {
+          "text": "busco ver menu"
+        },
+        {
+          "text": "busco ver o menu"
+        },
+        {
+          "text": "busco ver o quais são os serviços disponiveis"
+        },
+        {
+          "text": "busco ver os servicos"
+        },
+        {
+          "text": "gostaria de ver o menu"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "opções"
+        },
+        {
+          "text": "quais são os servicos"
+        },
+        {
+          "text": "quais são os serviços disponiveis"
+        },
+        {
+          "text": "quero ver menu"
+        },
+        {
+          "text": "quero ver o menu"
+        },
+        {
+          "text": "quero ver o quais são os serviços disponiveis"
+        },
+        {
+          "text": "servicos"
+        },
+        {
+          "text": "serviços disponiveis"
+        },
+        {
+          "text": "tem menu"
+        },
+        {
+          "text": "tem um menu"
+        },
+        {
+          "text": "ver menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "refletir_experiencias",
+      "examples": [
+        {
+          "text": "ajuda pra agora"
+        },
+        {
+          "text": "ajuda psicologica"
+        },
+        {
+          "text": "ajuda psicologo"
+        },
+        {
+          "text": "busco ajuda em relação a psicologia"
+        },
+        {
+          "text": "busco ajuda profissional"
+        },
+        {
+          "text": "busco atendimento psicologico"
+        },
+        {
+          "text": "busco atendimento psicologico em ONGs"
+        },
+        {
+          "text": "busco atendimento psicologico em universidade"
+        },
+        {
+          "text": "busco o CAPS"
+        },
+        {
+          "text": "busco ongs que me ajudem com apoio psicologico"
+        },
+        {
+          "text": "busco psicologo"
+        },
+        {
+          "text": "CAPS"
+        },
+        {
+          "text": "Form"
+        },
+        {
+          "text": "Formulário"
+        },
+        {
+          "text": "Formulário sobre experiências com desastres"
+        },
+        {
+          "text": "ME AJUDA AAAAAAAAA"
+        },
+        {
+          "text": "preciso de ajuda urgente"
+        },
+        {
+          "text": "preciso de um centro de apoio psicologico"
+        },
+        {
+          "text": "Preciso de um diagnostico"
+        },
+        {
+          "text": "preciso de um médico"
+        },
+        {
+          "text": "queria ver o formulário"
+        },
+        {
+          "text": "refletir sobre minhas emoções"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Nome",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "nome",
+          "patterns": [
+            "^[\\p{L}]+(?:[\\s'-][\\p{L}]+)*$"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Opcoes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dicas específicas de autocuidado",
+          "synonyms": [
+            "dicas específicas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Informações sobre como o tipo de evento que você vivenciou",
+          "synonyms": [
+            "Como uma inundação influenciou nas minhas reações",
+            "Como um deslizamento influenciou nas minhas reações",
+            "Como um incêndio influenciou nas minhas reações"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Reações comportamentais ou cognitivas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reações emocionais",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reações físicas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Técnicas gerais de autocuidado",
+          "synonyms": [
+            "técnicas",
+            "técnicas gerais"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sentimento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negativa",
+          "synonyms": [
+            "ansiedade",
+            "ansioso",
+            "ataque de panico",
+            "ciume",
+            "com vergonha",
+            "CPTSD",
+            "culpa",
+            "culpado",
+            "desanimado",
+            "desanimo",
+            "desmotivação",
+            "desmotivado",
+            "devaneio",
+            "dor",
+            "em panico",
+            "estressado",
+            "estresse",
+            "frustração",
+            "frustrado",
+            "insegurança",
+            "inseguro",
+            "medo",
+            "melancolico",
+            "panico",
+            "PTSD",
+            "sentindo dor",
+            "sofrendo",
+            "sofrido",
+            "sofrimento",
+            "solidão",
+            "sozinho",
+            "tedio",
+            "TEPT",
+            "TEPTC",
+            "triste",
+            "tristeza",
+            "vergonha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "positiva",
+          "synonyms": [
+            "alegre",
+            "alegria",
+            "aliviado",
+            "alivio",
+            "animado",
+            "animo",
+            "calma",
+            "calmo",
+            "contente",
+            "em paz",
+            "esperança",
+            "esperançoso",
+            "felicidade",
+            "feliz",
+            "motivação",
+            "motivado",
+            "otimismo",
+            "otimista",
+            "pacificado",
+            "paz",
+            "satisfação",
+            "satisfeito",
+            "tranquilidade",
+            "tranquilo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim_nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "ahnahn",
+            "discordo",
+            "errado",
+            "infactível",
+            "n",
+            "ñ",
+            "não aceito",
+            "não acho",
+            "não de acordo",
+            "negativo",
+            "noã"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "aceito",
+            "afirmativo",
+            "aham",
+            "beleza",
+            "Blz",
+            "concordo",
+            "correto",
+            "de acordo",
+            "factual",
+            "fatual",
+            "ok",
+            "okk",
+            "positivo",
+            "s",
+            "Show",
+            "Sim senhor",
+            "sm",
+            "smi"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "tipo_evento_climatico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Deslizamento",
+          "synonyms": [
+            "Desabou minha casa",
+            "Passei por um deslizamento",
+            "terra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Incêndio",
+          "synonyms": [
+            "Fogo",
+            "incendio",
+            "Passei por um Incêndio",
+            "Um Incendio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Inundação",
+          "synonyms": [
+            "agua",
+            "Alagamento",
+            "Enchente"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "frame",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_usuario! Seja bem-vindo(a) ao Recomeço. Sou um assistente virtual criado para oferecer apoio emocional e ajudar você a encontrar recursos para lidar com os sentimentos e desafios que podem surgir após eventos difíceis, como incêndios, inundações ou deslizamentos.\n\nPosso te ajudar a encontrar informações sobre:\n\n-Autocuidado Pós Desastre: Com técnicas práticas para o seu bem-estar.\n\n-Entendendo Suas Emoções: Para aprender mais sobre o impacto emocional de eventos traumáticos.\n\n-Formulário: Para refletir suas experiências com o desastre \n\n-Contatos para Apoio Psicológico: Encontre aqui serviços e profissionais que podem te ouvir, orientar e acolher nos momentos mais difíceis.\n\nComo posso te ajudar hoje? (Digite Menu para ver mais opções)\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome || #bem-vindo",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1749125305539",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "3. Evito pensar, falar ou fazer coisas que me lembram o que aconteceu."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1749050090032",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1749050090032",
+      "previous_sibling": "handler_9_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1749064208397",
+      "context": {
+        "contador_sim": "If $contador_sim <= 2"
+      },
+      "conditions": "If $contador_sim <= 2",
+      "event_name": "input",
+      "dialog_node": "handler_10_1749064208406"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1749126302870",
+      "context": {
+        "sim_nao": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_10_1749126302871"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual o seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1749045707587",
+      "context": {},
+      "event_name": "focus",
+      "dialog_node": "handler_1_1749045707589",
+      "previous_sibling": "handler_8_1749045707589"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"Parece que você está lidando bem, mas continue se cuidando.\""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1749064208397",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1749064208406",
+      "previous_sibling": "handler_10_1749064208406"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1749050090032",
+      "context": {
+        "perg4": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_12_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "4. Tenho menos interesse em atividades que antes me davam prazer."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_11_1749050090032",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1749050090032",
+      "previous_sibling": "handler_12_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1749050090032",
+      "context": {
+        "perg5": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_15_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "5. Sinto-me desconectado(a) das pessoas ao meu redor ou tenho me isolado."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_14_1749050090032",
+      "event_name": "focus",
+      "dialog_node": "handler_16_1749050090032",
+      "previous_sibling": "handler_15_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1749050090032",
+      "context": {
+        "perg6": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_18_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "6. Tenho tido flashbacks, pesadelos ou lembranças indesejadas do evento."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_17_1749050090032",
+      "event_name": "focus",
+      "dialog_node": "handler_19_1749050090032",
+      "previous_sibling": "handler_18_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_20_1749050090032",
+      "context": {
+        "perg7": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_21_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "7. Sinto que minha vida mudou completamente e de forma negativa após o evento."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_20_1749050090032",
+      "event_name": "focus",
+      "dialog_node": "handler_22_1749050090032",
+      "previous_sibling": "handler_21_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1749050090032",
+      "context": {
+        "perg8": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_24_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "8. Tenho dificuldade para me concentrar no trabalho, estudos ou em tarefas simples."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_23_1749050090032",
+      "event_name": "focus",
+      "dialog_node": "handler_25_1749050090032",
+      "previous_sibling": "handler_24_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1749050090032",
+      "context": {
+        "perg1": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_3_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1749126302870",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1749126302871",
+      "previous_sibling": "handler_10_1749126302871"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Tenho tido dificuldade para dormir nos últimos dias ou tenho dormido mais que o usual."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1749050090032",
+      "context": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1749050090032",
+      "previous_sibling": "handler_3_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1749040534562",
+      "event_name": "input",
+      "dialog_node": "handler_6_1749040534573"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1749050090032",
+      "context": {
+        "perg2": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_6_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "2. Sinto-me constantemente em alerta, tenso(a) ou nervoso(a)."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1749050090032",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1749050090032",
+      "previous_sibling": "handler_6_1749050090032"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1749045707587",
+      "context": {
+        "nome_usuario": "@Nome.literal"
+      },
+      "conditions": "@Nome",
+      "event_name": "input",
+      "dialog_node": "handler_8_1749045707589"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1749040534562",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1749040534573",
+      "previous_sibling": "handler_6_1749040534573"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1749050090032",
+      "context": {
+        "perg3": "@sim_nao"
+      },
+      "conditions": "@sim_nao",
+      "event_name": "input",
+      "dialog_node": "handler_9_1749050090032"
+    },
+    {
+      "type": "standard",
+      "title": "Autocuidado Pós-Desastre Natural",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_usuario! Cuidar de si mesmo após uma experiência difícil é fundamental. No Recomeço, oferecemos algumas ferramentas e informações para te ajudar nesse processo.\n\nVocê gostaria de explorar:\n\n1. Técnicas gerais de autocuidado que podem ser úteis em diversos momentos?\n2. Dicas específicas de autocuidado para situações como flashbacks ou ataques de pânico?\n3. Informações sobre como o tipo de evento que você vivenciou (como incêndios, inundações ou deslizamentos) pode influenciar as reações e o autocuidado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#autocuidado || @tipo_evento_climatico",
+      "dialog_node": "node_10_1748437113756",
+      "previous_sibling": "node_5_1748954974705"
+    },
+    {
+      "type": "standard",
+      "title": "Respostas Autocuidado",
+      "parent": "node_10_1748437113756",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number || #autocuidado",
+      "dialog_node": "node_1_1748984289972"
+    },
+    {
+      "type": "frame",
+      "title": "Formulário Refletindo sobre suas experiências",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você marcou <? $sim_count ?> de 8 itens?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1749047466256",
+      "context": {
+        "sim_count": "<? (context.perg1 == 'sim' ? 1 : 0) + (context.perg2 == 'sim' ? 1 : 0) + (context.perg3 == 'sim' ? 1 : 0) + (context.perg4 == 'sim' ? 1 : 0) + (context.perg5 == 'sim' ? 1 : 0) + (context.perg6 == 'sim' ? 1 : 0) + (context.perg7 == 'sim' ? 1 : 0) + (context.perg8 == 'sim' ? 1 : 0) ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_1_1749050090030"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionar para Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1748982221047",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1748954974705"
+      },
+      "conditions": "@sim_nao:não",
+      "dialog_node": "node_1_1749135371621",
+      "previous_sibling": "node_2_1749047793037"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1748982290103",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1748954974705"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_1_1749135472946"
+    },
+    {
+      "type": "standard",
+      "title": "Contatos de Serviços de Apoio Psicológico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_usuario! Buscar ajuda é um ato de coragem e um passo importante para sua recuperação e bem-estar. Existem diversos recursos disponíveis:\n\n-CVV (Centro de Valorização da Vida): Ligue 188 para apoio emocional gratuito, 24 horas por dia.\n\n-CAPS (Centros de Atenção Psicossocial): Oferecem atendimento psicológico gratuito pelo SUS. Procure o CAPS do seu município.\n\n-Universidades com Cursos de Psicologia: Muitas oferecem atendimento em clínicas-escola com valores acessíveis ou gratuitos.\n\nSe estiver em uma emergência médica, ligue para o SAMU no 192."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#emergencia",
+      "dialog_node": "node_2_1748982290103",
+      "previous_sibling": "node_9_1749047466256"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta Entendendo suas Emoções",
+      "parent": "node_3_1748982221047",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#entender_emocoes || @sim_nao:sim || @sys-number",
+      "dialog_node": "node_2_1749047793037"
+    },
+    {
+      "type": "standard",
+      "title": "Voltar para faq",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1748957242517",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1748956735499"
+      },
+      "conditions": "@sim_nao",
+      "dialog_node": "node_2_1749056778059"
+    },
+    {
+      "type": "standard",
+      "title": "Entendendo Suas Emoções Após um Evento Traumático",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_usuario! É normal não se sentir normal após um evento traumático. Muitas pessoas vivenciam uma variedade de emoções e sensações, e isso é parte do processo de lidar com o que aconteceu.\n\nGostaria de saber mais sobre as reações comuns que podem surgir após um trauma? \nPosso te falar sobre: \n\n1. Reações emocionais;\n2. Reações físicas;\n3. Reações comportamentais ou cognitivas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#entender_emocoes || @sentimento",
+      "dialog_node": "node_3_1748982221047",
+      "previous_sibling": "node_10_1748437113756"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo de situação que a pessoa passou",
+      "parent": "node_1_1748984289972",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1748984289972"
+      },
+      "conditions": "@tipo_evento_climatico",
+      "dialog_node": "node_3_1749041556962"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionar para Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1748437113756",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1748954974705"
+      },
+      "conditions": "@sim_nao:não",
+      "dialog_node": "node_4_1749135308530",
+      "previous_sibling": "node_1_1748984289972"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionar para Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1749064092240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1748954974705"
+      },
+      "conditions": "@sim_nao || #agradecimento",
+      "dialog_node": "node_4_1749135427354"
+    },
+    {
+      "type": "standard",
+      "title": "Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_usuario! Para te ajudar, digite a opção desejada:\n\nAutocuidado - Autocuidado Pós Desastre Natural\n\nTécnicas Universais - Técnicas Universais de Autocuidado\n\nEntender minhas emoções - Entendendo Suas Emoções Após um Evento Traumático\n\nFormulário - Formulário para refletir suas experiências com o desastre \n\nContatos - Contatos de Serviços de Apoio Psicológico\n\nFaq/Dúvidas - Dúvidas sobre o Recomeço"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#menu",
+      "dialog_node": "node_5_1748954974705",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionar para Autocuidado Pós-Desastre Natural",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1748984289972",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1748437113756"
+      },
+      "conditions": "#agradecimento || @sim_nao:sim",
+      "dialog_node": "node_5_1749056950506",
+      "previous_sibling": "node_3_1749041556962"
+    },
+    {
+      "type": "standard",
+      "title": "Respostas FAQ",
+      "parent": "node_8_1748956735499",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_7_1748957242517"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionar para Menu",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1749047466256",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1748954974705"
+      },
+      "conditions": "@sim_nao:não || #agradecimento",
+      "dialog_node": "node_7_1749050181902",
+      "previous_sibling": "node_1_1749050090030"
+    },
+    {
+      "type": "standard",
+      "title": "Redirecionar para Entender Suas Emoções",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1749047793037",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1748982221047"
+      },
+      "conditions": "@sim_nao || #agradecimento",
+      "dialog_node": "node_7_1749056830978"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De nada! Nos que agradecemos por escolher o Recomeço. Qualquer coisa é só chamar:\n\nAutocuidado - Autocuidado Pós Desastre Natural\n\nTécnicas Universais - Técnicas Universais de Autocuidado\n\nEntender minhas emoções - Entendendo Suas Emoções Após um Evento Traumático\n\nFormulário - Formulário para refletir suas experiências com o desastre \n\nContatos - Contatos de Serviços de Apoio Psicológico\n\nFaq/Dúvidas - Dúvidas sobre \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "node_7_1749125305539",
+      "previous_sibling": "node_8_1748956735499"
+    },
+    {
+      "type": "standard",
+      "title": "FAQ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se possui alguma dúvida digite uma das seguintes perguntas ou digite seu número.\n\n1 - Este chatbot substitui um psicólogo ou psiquiatra?\n2 - Para quem este chatbot é destinado?\n3 - As técnicas apresentadas são cientificamente comprovadas?\n4 - O que fazer se eu estiver em crise agora?\n5 - Posso usar essas técnicas para outras pessoas?\n6 - Com que frequência devo praticar os exercícios?\n7 - Como sei se preciso de ajuda profissional?\n8 - Posso compartilhar este site com outras pessoas?\n9 - Os exercícios têm contraindicações?\n10 - Como o chatbot organiza as informações e ferramentas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#faq",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1748956735499",
+      "previous_sibling": "node_2_1748982290103"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta personalizada para o formulário",
+      "parent": "node_1_1749050090030",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_8_1749064092240"
+    },
+    {
+      "type": "standard",
+      "title": "Refletindo Sobre Suas Experiências",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_usuario! Deseja realizar uma formulário para refletir suas experiências com o desastre? (8 perguntas rápidas, responda com Sim ou Não)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#refletir_experiencias",
+      "dialog_node": "node_9_1749047466256",
+      "previous_sibling": "node_3_1748982221047"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os exercícios de respiração podem ser praticados quantas vezes você sentir necessidade. Para obter melhores resultados, recomenda-se prática regular, mesmo quando você não está em crise. Isso ajuda a desenvolver a habilidade para usar essas técnicas quando mais precisar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:6",
+      "dialog_node": "response_1_1749040346136",
+      "previous_sibling": "response_7_1749040345105"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Busque ajuda profissional se: os sintomas persistem por mais de um mês, você tem pensamentos de autolesão, não consegue realizar atividades básicas do dia a dia, está usando álcool/substâncias para lidar com a dor, ou se sente completamente isolado. Quando em dúvida, é sempre melhor conversar com um profissional. Veja mais detalhes na nossa página \"Entendendo Suas Emoções\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:7",
+      "dialog_node": "response_1_1749040347024",
+      "previous_sibling": "response_1_1749040346136"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ótima escolha! As técnicas de autocuidado podem ser muito úteis para trazer um pouco de calma e bem-estar. Aqui estão algumas que você pode explorar:\n\nRespiração 4-2-6: É uma técnica simples para ajudar a reduzir a ansiedade. Consiste em inspirar contando até 4, segurar o ar por 2 segundos e expirar lentamente contando até 6. Repetir por alguns ciclos pode ajudar a acalmar.\n\nTécnica 5-4-3-2-1 (Grounding): Ajuda você a se conectar com o presente usando seus sentidos. Você identifica 5 coisas que pode ver, 4 coisas que pode tocar, 3 coisas que pode ouvir, 2 coisas que pode cheirar e 1 coisa que pode saborear.\n\nLugar Seguro Mental: Envolve visualizar um lugar onde você se sente completamente seguro e tranquilo. Tente incluir detalhes sensoriais como cores, sons e texturas.\n\nRotina Diária de Autocuidado: Estabelecer pequenas rotinas, como um check-in emocional pela manhã, uma atividade prazerosa à tarde e um momento de relaxamento à noite, pode fazer uma grande diferença."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1748984289972",
+      "conditions": "@sys-number:1 || @Opcoes:(Técnicas gerais de autocuidado)",
+      "dialog_node": "response_3_1749040534211",
+      "previous_sibling": "slot_3_1749040534562"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Recomeço foi criado especialmente para pessoas que passaram por eventos traumáticos, como desastres naturais, acidentes, ou outras situações de crise. Também pode ser útil para familiares e amigos que querem entender melhor como apoiar alguém nessa situação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:2",
+      "dialog_node": "response_4_1749040207877",
+      "previous_sibling": "response_5_1749040192992"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os exercícios de respiração apresentados são seguros para a maioria das pessoas. No entanto, se você tem problemas respiratórios, cardíacos ou outros problemas de saúde, consulte um médico antes de praticar. Se sentir tontura ou desconforto durante os exercícios, pare imediatamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:9",
+      "dialog_node": "response_4_1749040349574",
+      "previous_sibling": "response_6_1749040348656"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro. Algumas reações emocionais comuns ao trauma incluem:\n- Ansiedade e preocupação excessiva\n- Tristeza profunda ou episódios de choro\n- Medo intenso ou sensação de pânico\n- Irritabilidade ou raiva desproporcional\n- Sensação de vazio ou desconexão\n- Culpa ou autorresponsabilização\n- Dificuldade de sentir prazer ou alegria"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1749047793037",
+      "conditions": "@sys-number:1 || @Opcoes:(reações emocionais)",
+      "dialog_node": "response_4_1749049002234",
+      "previous_sibling": "node_7_1749056830978"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você marcou <? $sim_count ?> de 8 itens."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1749050090030",
+      "context": {
+        "sim_count": "<? (context.perg1 == 'sim' ? 1 : 0) + (context.perg2 == 'sim' ? 1 : 0) + (context.perg3 == 'sim' ? 1 : 0) + (context.perg4 == 'sim' ? 1 : 0) + (context.perg5 == 'sim' ? 1 : 0) + (context.perg6 == 'sim' ? 1 : 0) + (context.perg7 == 'sim' ? 1 : 0) + (context.perg8 == 'sim' ? 1 : 0) ?>"
+      },
+      "disabled": true,
+      "dialog_node": "response_4_1749072251121",
+      "previous_sibling": "node_8_1749064092240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não, definitivamente não. O Recomeço oferece recursos educativos e ferramentas de apoio, mas não substitui o aconselhamento, diagnóstico ou tratamento psicológico profissional. Sempre recomendamos buscar ajuda de profissionais qualificados para acompanhamento adequado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:1",
+      "dialog_node": "response_5_1749040192992",
+      "previous_sibling": "node_2_1749056778059"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sim, todas as técnicas de respiração, relaxamento e estratégias de enfrentamento apresentadas são baseadas em evidências científicas e amplamente utilizadas na psicologia clínica. No entanto, cada pessoa responde de forma diferente, e o que funciona para uns pode não funcionar para outros."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:3",
+      "dialog_node": "response_5_1749040232956",
+      "previous_sibling": "response_4_1749040207877"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Recomeço te ajuda a acessar informações importantes para o seu bem-estar emocional. Posso te oferecer:\n\n-Técnicas de Autocuidado: Incluindo exercícios de respiração.\n-Informações sobre Emoções Pós-Trauma: Para entender suas reações.\n-Contatos de Serviços de Apoio: Se precisar de ajuda profissional.\n-Orientações para situações específicas como incêndios, inundações ou deslizamentos.\n\nÉ só me perguntar sobre o que você precisa!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:10",
+      "dialog_node": "response_5_1749040350603",
+      "previous_sibling": "response_4_1749040349574"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sinto muito que tenha passado por uma inundação. É comum sentir ansiedade com chuvas, medo de água ou uma preocupação excessiva com o tempo depois de um evento assim.\n\nAlgumas dicas de autocuidado incluem:\n- Reconhecer seus sentimentos: Permita-se sentir o que vier, seja medo, tristeza ou raiva. Escrever sobre isso no seu diário pode ajudar.\n\n- Focar no controlável: Concentre-se nas ações que você pode tomar para se sentir mais seguro(a) e para reconstruir o que foi perdido, um passo de cada vez.\n\n- Buscar apoio: Converse com amigos, familiares ou procure grupos de apoio. Compartilhar sua experiência pode ser muito útil."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1749041556962",
+      "conditions": "@tipo_evento_climatico:Inundação || @sys-number:2",
+      "dialog_node": "response_5_1749041789031",
+      "previous_sibling": "response_8_1749041746722"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu corpo também pode reagir ao trauma. Algumas reações físicas comuns são:\n\n- Dificuldade para dormir ou pesadelos\n- Fadiga constante ou falta de energia\n- Dores de cabeça frequentes\n- Tensão muscular ou dores no corpo\n- Problemas digestivos ou perda de apetite\n- Sensação de sufocamento ou respiração acelerada\n- Palpitações ou coração acelerado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1749047793037",
+      "conditions": "@sys-number:2 || @Opcoes:(Reações físicas)",
+      "dialog_node": "response_5_1749049608558",
+      "previous_sibling": "response_4_1749049002234"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom que você está se observando. Mesmo sem marcar itens, refletir sobre seu bem-estar é um passo importante."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1749064092240",
+      "context": {
+        "perg1": null,
+        "perg2": null,
+        "perg3": null,
+        "perg4": null,
+        "perg5": null,
+        "perg6": null,
+        "perg7": null,
+        "perg8": null,
+        "sim_nao": null,
+        "sim_count": null
+      },
+      "conditions": "$sim_count == 0",
+      "dialog_node": "response_5_1749071721090",
+      "previous_sibling": "slot_3_1749064208397"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Absolutamente! Encorajamos você a compartilhar o Recomeço com pessoas que possam se beneficiar. No entanto, lembre-se de que cada pessoa tem seu próprio tempo e processo de recuperação. Compartilhe com cuidado e respeito, sem pressionar ninguém a usar os recursos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:8",
+      "dialog_node": "response_6_1749040348656",
+      "previous_sibling": "response_1_1749040347024"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É comum vivenciar algumas dessas reações após um evento difícil. Observar seus sentimentos é um bom começo. Continue se cuidando e, se algo te preocupar mais intensamente ou persistir, considere conversar com alguém de confiança ou um profissional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1749064092240",
+      "context": {
+        "perg1": null,
+        "perg2": null,
+        "perg3": null,
+        "perg4": null,
+        "perg5": null,
+        "perg6": null,
+        "perg7": null,
+        "perg8": null,
+        "sim_nao": null,
+        "sim_count": null
+      },
+      "conditions": "$sim_count > 0 && $sim_count < 3",
+      "dialog_node": "response_6_1749064199603",
+      "previous_sibling": "response_5_1749071721090"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Percebo que você marcou alguns itens. É comum sentir algumas dessas reações após um evento impactante. Continue atento(a) a como se sente e lembre-se de que temos recursos de autocuidado que podem ajudar. Se o incômodo persistir, não hesite em procurar apoio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1749064092240",
+      "context": {
+        "perg1": null,
+        "perg2": null,
+        "perg3": null,
+        "perg4": null,
+        "perg5": null,
+        "perg6": null,
+        "perg7": null,
+        "perg8": null,
+        "sim_nao": null,
+        "sim_count": null
+      },
+      "conditions": "$sim_count > 4 && $sim_count < 7",
+      "dialog_node": "response_6_1749071669112",
+      "previous_sibling": "response_6_1749064199603"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As técnicas de respiração e relaxamento podem ser compartilhadas, mas lembre-se de que cada pessoa tem suas necessidades específicas. Evite dar conselhos psicológicos se você não for um profissional. O melhor apoio é escutar sem julgar e encorajar a busca por ajuda profissional quando necessário."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:5",
+      "dialog_node": "response_7_1749040345105",
+      "previous_sibling": "response_8_1749040321954"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você marcou uma quantidade considerável de itens, o que sugere que o impacto emocional do evento pode estar sendo bastante intenso e afetando diversas áreas da sua vida. É muito importante que você não passe por isso sozinho(a). Considerar seriamente uma conversa com um profissional de saúde mental pode ser um passo crucial para sua recuperação e bem-estar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1749064092240",
+      "context": {
+        "perg1": null,
+        "perg2": null,
+        "perg3": null,
+        "perg4": null,
+        "perg5": null,
+        "perg6": null,
+        "perg7": null,
+        "perg8": null,
+        "sim_nao": null,
+        "sim_count": null
+      },
+      "conditions": "$sim_count >= 7",
+      "dialog_node": "response_7_1749071779539",
+      "previous_sibling": "response_6_1749071669112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você está em crise ou com pensamentos de autolesão, procure ajuda imediatamente: CVV (188) disponível 24h, SAMU (192), ou vá ao pronto-socorro mais próximo. Não hesite em pedir ajuda - sua segurança é a prioridade."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1748957242517",
+      "conditions": "@sys-number:4",
+      "dialog_node": "response_8_1749040321954",
+      "previous_sibling": "response_5_1749040232956"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendo. Após um incêndio, é comum sentir medo do fogo ou cheiro de fumaça, ter flashbacks ou uma sensação de perda de segurança.\n\nAlgumas técnicas que podem ajudar incluem:\n\n1.Segurança no Agora (Aterramento): Foque sua atenção no presente para reduzir a sobrecarga de lembranças. Tente:\n    - Ver: 5 coisas ao seu redor que não estão ligadas ao incêndio.\n    - Sentir: 4 texturas diferentes (sua roupa, uma cadeira, etc.).\n    - Ouvir: 3 sons do ambiente atual.\n    - Afirmar: \"O incêndio passou. Estou seguro(a) agora.\"\n\n2.Ambiente de Calma: Crie um espaço que promova tranquilidade, longe de gatilhos.\n    - Identifique gatilhos: Cheiros (como queimado) ou sons (como sirenes) que causam ansiedade.\n    - Use cheiros calmantes: Lavanda ou camomila podem ajudar.\n    - Crie sons positivos: Músicas relaxantes ou sons da natureza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1749041556962",
+      "conditions": "@tipo_evento_climatico:Incêndio || @sys-number:1",
+      "dialog_node": "response_8_1749041746722"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deslizamentos podem ser experiências muito assustadoras. É comum sentir medo de terrenos inclinados, ansiedade em dias chuvosos ou estar mais alerta a ruídos.\n\nPara ajudar a lidar com isso:\n- Técnicas de Aterramento: Como a técnica 5-4-3-2-1, podem ajudar a trazer sua mente para o presente quando se sentir sobrecarregado(a).\n\n- Informação Segura: Busque informações de fontes confiáveis sobre a segurança da sua área, mas evite o excesso de notícias que podem aumentar a ansiedade.\n\n- Rotina de Segurança: Se possível, crie pequenas rotinas que te ajudem a se sentir mais seguro(a) em casa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1749041556962",
+      "conditions": "@tipo_evento_climatico:Deslizamento || @sys-number:3",
+      "dialog_node": "response_8_1749041817279",
+      "previous_sibling": "response_5_1749041789031"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mudanças no comportamento e na forma de pensar também são comuns. Você pode notar:\n\n- Evitar lugares, pessoas ou conversas que lembrem o evento\n- Isolamento social ou dificuldade de concentração\n- Hipervigilância (estar sempre em alerta)\n- Flashbacks ou lembranças intrusivas\n- Dificuldade para tomar decisões\n- Mudanças nos hábitos alimentares ou de sono\n- Esquecimento ou confusão mental"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1749047793037",
+      "conditions": "@sys-number:3 || @Opcoes:(Reações comportamentais ou cognitivas)",
+      "dialog_node": "response_8_1749049643474",
+      "previous_sibling": "response_5_1749049608558"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendo, momentos como flashbacks ou ataques de pânico podem ser muito intensos. Temos algumas dicas que podem ajudar a lidar com essas situações:\n\nSe você está tendo um flashback AGORA:\nLembre-se: você está SEGURO(A) no presente.\n- Olhe ao redor e nomeie 5 objetos que você vê.\n- Toque uma superfície e descreva sua textura.\n- Respire profundamente e devagar.\n- Diga em voz alta: \"Isso já passou, estou seguro(a) agora.\"\n\nSe você está tendo um ataque de pânico:\n- Sente-se ou deite-se em um local seguro.\n- Lembre-se: isso vai passar, você não está em perigo.\n- Use a respiração 4-2-6 (Inspire por 4s, segure por 2s, expire por 6s).\n- Coloque os pés firmemente no chão.\n- Se possível, ligue para alguém de confiança."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1748984289972",
+      "conditions": "@sys-number:2 || @Opcoes:(Dicas específicas de autocuidado)",
+      "dialog_node": "response_9_1749041409212",
+      "previous_sibling": "response_3_1749040534211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sim, cada tipo de evento pode trazer reações e necessidades de autocuidado um pouco diferentes. Para que eu possa te ajudar melhor, você poderia me dizer por qual tipo de situação você passou? \n\n1 - Incêndio \n2 - Inundação\n3 - deslizamento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1748984289972",
+      "conditions": "@sys-number:3 || @Opcoes:(Informações sobre como o tipo de evento que você vivenciou)",
+      "dialog_node": "response_9_1749041502593",
+      "previous_sibling": "response_9_1749041409212"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg4",
+      "dialog_node": "slot_11_1749050090032",
+      "previous_sibling": "slot_8_1749050090032"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg5",
+      "dialog_node": "slot_14_1749050090032",
+      "previous_sibling": "slot_11_1749050090032"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg6",
+      "dialog_node": "slot_17_1749050090032",
+      "previous_sibling": "slot_14_1749050090032"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg7",
+      "dialog_node": "slot_20_1749050090032",
+      "previous_sibling": "slot_17_1749050090032"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg1",
+      "dialog_node": "slot_2_1749050090032",
+      "previous_sibling": "slot_7_1749126302870"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg8",
+      "dialog_node": "slot_23_1749050090032",
+      "previous_sibling": "slot_20_1749050090032"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1748984289972",
+      "dialog_node": "slot_3_1749040534562",
+      "previous_sibling": "node_5_1749056950506"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1749064092240",
+      "variable": "$contador_sim",
+      "dialog_node": "slot_3_1749064208397",
+      "previous_sibling": "node_4_1749135427354"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Bem-vindo",
+      "variable": "$nome_usuario",
+      "dialog_node": "slot_4_1749045707587"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg2",
+      "dialog_node": "slot_5_1749050090032",
+      "previous_sibling": "slot_2_1749050090032"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1749050090030",
+      "variable": "$sim_nao",
+      "dialog_node": "slot_7_1749126302870",
+      "previous_sibling": "response_4_1749072251121"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1749050090030",
+      "variable": "$perg3",
+      "dialog_node": "slot_8_1749050090032",
+      "previous_sibling": "slot_5_1749050090032"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "RecomeçaSP",
+  "name": "Watson Assistant Recomeço-dialog"
+}

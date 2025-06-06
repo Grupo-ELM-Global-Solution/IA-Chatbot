@@ -1,0 +1,559 @@
+[
+    {
+        "id": "9afc03dfb863ee4b",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9a16fd1990e31477",
+        "type": "telegram bot",
+        "botname": "gs_recomeco_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "testenvironment": false,
+        "updatemode": "polling",
+        "pollinterval": 300,
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": 6667,
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbothost": "",
+        "localbotport": 8443,
+        "publicbotport": 8443,
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "8b71059964ee1ac5",
+        "type": "watson-speech-to-text",
+        "z": "9afc03dfb863ee4b",
+        "name": "",
+        "alternatives": 1,
+        "speakerlabels": true,
+        "smartformatting": false,
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "custom-weight": "0.5",
+        "band": "NarrowbandModel",
+        "bandhidden": "",
+        "keywords": "",
+        "keywords-threshold": "0.5",
+        "word-confidence": false,
+        "password": "",
+        "apikey": "DYqB8go1TvalSBBZ6FX8l4AuJ79mYyzifWIA8uL0E15M",
+        "payload-response": true,
+        "streaming-mode": false,
+        "streaming-mute": true,
+        "auto-connect": false,
+        "discard-listening": false,
+        "disable-precheck": false,
+        "service-endpoint": "https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/00089234-3b2e-4c88-a059-418d09b01989",
+        "x": 720,
+        "y": 200,
+        "wires": [
+            [
+                "dfa498510231588a",
+                "eb01cd7cb65ed612"
+            ]
+        ]
+    },
+    {
+        "id": "aef6551fc2f7cc95",
+        "type": "function",
+        "z": "9afc03dfb863ee4b",
+        "name": "function 1",
+        "func": "msg.params = {\n    \"session_id\": msg.payload.chatId,\n    \"type\": \"voice\"\n}\nmsg.payload = msg.payload.weblink\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 200,
+        "wires": [
+            [
+                "8b71059964ee1ac5",
+                "fc2c54ac3e02409b"
+            ]
+        ]
+    },
+    {
+        "id": "115a0edb742bef29",
+        "type": "function",
+        "z": "9afc03dfb863ee4b",
+        "name": "function 2",
+        "func": "msg.payload = {\n    \"content\": msg.payload,\n    \"type\": \"voice\",\n    \"chatId\": msg.params.session_id,\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 200,
+        "wires": [
+            [
+                "8761b4dde2713e6a",
+                "dfbd2da863cececb"
+            ]
+        ]
+    },
+    {
+        "id": "eb7fce391ddca74b",
+        "type": "function",
+        "z": "9afc03dfb863ee4b",
+        "name": "function 3",
+        "func": "msg.params = {\n    \"session_id\": msg.payload.chatId\n}\nmsg.payload = msg.payload.content\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "02b0e9220e768425",
+                "17525c49879b5563"
+            ]
+        ]
+    },
+    {
+        "id": "87e4cec7fd4ddb40",
+        "type": "watson-text-to-speech",
+        "z": "9afc03dfb863ee4b",
+        "name": "",
+        "lang": "pt-BR",
+        "langhidden": "pt-BR",
+        "langcustom": "NoCustomisationSetting",
+        "langcustomhidden": "",
+        "voice": "pt-BR_IsabelaV3Voice",
+        "voicehidden": "pt-BR_IsabelaV3Voice",
+        "format": "audio/wav",
+        "password": "",
+        "apikey": "qrdTRxWEZK2BST2IAvS5yRi41_aiqAsnRKQHHQtSVAsB",
+        "payload-response": true,
+        "service-endpoint": "https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/4ea26c6b-4a9b-4501-a35f-e536b401db4b",
+        "x": 1380,
+        "y": 200,
+        "wires": [
+            [
+                "115a0edb742bef29",
+                "9e7f3b5a2855f47f"
+            ]
+        ],
+        "info": "console.log(\"[DEBUG] Entrada da Função 4:\", JSON.stringify(msg.payload));\r\n"
+    },
+    {
+        "id": "76e11aed8fadea2a",
+        "type": "switch",
+        "z": "9afc03dfb863ee4b",
+        "name": "",
+        "property": "payload.type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "voice",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "message",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "photo",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "animation",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "sticker",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 290,
+        "y": 300,
+        "wires": [
+            [
+                "aef6551fc2f7cc95"
+            ],
+            [
+                "eb7fce391ddca74b"
+            ],
+            [
+                "b6fb00cf739301e3"
+            ],
+            [
+                "050fcfeb82d7062a"
+            ],
+            [
+                "050fcfeb82d7062a"
+            ]
+        ]
+    },
+    {
+        "id": "a7ae5025121e5990",
+        "type": "telegram receiver",
+        "z": "9afc03dfb863ee4b",
+        "name": "",
+        "bot": "9a16fd1990e31477",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "76e11aed8fadea2a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8761b4dde2713e6a",
+        "type": "telegram sender",
+        "z": "9afc03dfb863ee4b",
+        "name": "",
+        "bot": "9a16fd1990e31477",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1770,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dfa498510231588a",
+        "type": "watson-assistant-v2",
+        "z": "9afc03dfb863ee4b",
+        "name": "Recomeco",
+        "service-endpoint": "https://api.us-south.assistant.watson.cloud.ibm.com/instances/ba04109b-07dd-469b-bf3a-53a3a71ae680",
+        "assistant_id": "73667876-3992-4471-b3c1-72dd36ead6ae",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "persist-session-id": true,
+        "x": 930,
+        "y": 200,
+        "wires": [
+            [
+                "2ed13cf826bb5b78",
+                "8dd5ce2735d9e0af"
+            ]
+        ]
+    },
+    {
+        "id": "02b0e9220e768425",
+        "type": "watson-assistant-v2",
+        "z": "9afc03dfb863ee4b",
+        "name": "Recomeco",
+        "service-endpoint": "https://api.us-south.assistant.watson.cloud.ibm.com/instances/ba04109b-07dd-469b-bf3a-53a3a71ae680",
+        "assistant_id": "73667876-3992-4471-b3c1-72dd36ead6ae",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "persist-session-id": false,
+        "x": 710,
+        "y": 400,
+        "wires": [
+            [
+                "2f1466dba0411fe0",
+                "cae71efcd1707ac4"
+            ]
+        ]
+    },
+    {
+        "id": "2ed13cf826bb5b78",
+        "type": "function",
+        "z": "9afc03dfb863ee4b",
+        "name": "function 9",
+        "func": "// Ele espera que msg.payload contenha a saída do seu serviço de NLP.\n\nvar nlpResponse = msg.payload; // A resposta completa do seu serviço de NLP\nvar confidenceThreshold = 0.3; // Limiar de confiança. Ajuste se necessário.\n\nlet notUnderstood = false;\n\n// Define a mensagem de fallback padrão para a que você deseja.\nlet customFallbackMessage = \"Não tenho certeza do que você quis dizer. Você pode repetir?\";\n\n// Guarda a resposta original do NLP para depuração, caso precisemos.\n// Será útil se algo der errado ou se a intenção for entendida mas não houver texto.\n// É bom fazer uma cópia para evitar modificar o objeto original se ele for usado em outros lugares.\nmsg.originalNlpOutput = JSON.parse(JSON.stringify(nlpResponse));\n\n// 0. Validação básica do payload do NLP\nif (typeof nlpResponse !== 'object' || nlpResponse === null || typeof nlpResponse.output !== 'object' || nlpResponse.output === null) {\n    node.warn(\"Payload do NLP está malformado ou 'output' está ausente. Considerado como não entendido.\");\n    notUnderstood = true;\n} else {\n    // Cenário 1: O NLP explicitamente oferece SUGESTÕES.\n    // Isso indica que a confiança não foi alta na interpretação inicial.\n    if (nlpResponse.output.generic && Array.isArray(nlpResponse.output.generic)) {\n        for (let i = 0; i < nlpResponse.output.generic.length; i++) {\n            if (nlpResponse.output.generic[i] && nlpResponse.output.generic[i].response_type === \"suggestion\") {\n                notUnderstood = true;\n                // A customFallbackMessage já está definida para a mensagem correta.\n                //msg.suggestionsFromNlp = nlpResponse.output.generic[i].suggestions; // Opcional\n                node.log(\"NLP ofereceu sugestões. Marcado como não entendido.\"); // Adicionado log para clareza\n                break;\n            }\n        }\n    }\n\n    // Cenário 2: O NLP não encontrou INTENÇÕES claras ou a confiança é baixa.\n    // Só executa se o Cenário 1 não marcou como \"notUnderstood\".\n    if (!notUnderstood) {\n        if (nlpResponse.output.intents && Array.isArray(nlpResponse.output.intents)) {\n            if (nlpResponse.output.intents.length === 0) {\n                node.warn(\"Nenhuma intenção encontrada pelo NLP.\");\n                notUnderstood = true;\n            } else if (nlpResponse.output.intents[0].confidence !== undefined &&\n                       nlpResponse.output.intents[0].confidence < confidenceThreshold) {\n                node.warn(\"Baixa confiança na intenção principal: \" + nlpResponse.output.intents[0].intent +\n                           \" (Confiança: \" + nlpResponse.output.intents[0].confidence + \")\");\n                notUnderstood = true;\n            }\n            // Adicione aqui verificações para intents específicos de \"fallback\", se houver.\n            // else if (nlpResponse.output.intents[0].intent === \"seu_intent_de_fallback\") {\n            //     notUnderstood = true;\n            // }\n        } else {\n            // Se 'nlpResponse.output.intents' não existir ou não for um array.\n            node.warn(\"Estrutura de 'intents' não encontrada ou malformada em nlpResponse.output.\");\n            notUnderstood = true;\n        }\n    }\n}\n\n// Decisão final sobre o msg.payload de saída\nif (notUnderstood) {\n    msg.payload = customFallbackMessage;\n    node.warn(\"Mensagem marcada como NÃO ENTENDIDA. Novo payload: '\" + msg.payload + \"'\");\n    node.warn(\"Output original do NLP que levou ao não entendimento: \" + JSON.stringify(msg.originalNlpOutput)); // Log importante\n} else {\n    // Foi ENTENDIDO! Vamos tentar extrair o texto de resposta do NLP.\n    // (Isso é o que você mencionou com msg.payload.output.generic[0].text)\n    if (nlpResponse.output &&\n        nlpResponse.output.generic &&\n        Array.isArray(nlpResponse.output.generic) &&\n        nlpResponse.output.generic.length > 0 &&\n        nlpResponse.output.generic[0].response_type === \"text\" &&\n        typeof nlpResponse.output.generic[0].text === 'string' &&\n        nlpResponse.output.generic[0].text.trim() !== '') {\n\n        msg.payload = nlpResponse.output.generic[0].text;\n        node.log(\"Mensagem ENTENDIDA. Payload definido como texto do NLP: '\" + msg.payload + \"'\");\n    } else {\n        // Intenção foi entendida, mas não há uma resposta de texto padrão ou está vazia.\n        node.warn(\"Intenção entendida, mas sem resposta de texto utilizável em output.generic[0].text. Usando fallback.\");\n        // Aqui, você pode decidir se quer usar a mesma customFallbackMessage ou uma diferente.\n        // Para manter a consistência do seu pedido \"deixar só a parte de...\", usaremos a mesma.\n        msg.payload = customFallbackMessage;\n        // Se preferir uma mensagem diferente para ESTE caso específico:\n        // msg.payload = \"Entendi sua intenção (\" + (nlpResponse.output.intents[0] ? nlpResponse.output.intents[0].intent : 'desconhecida') + \"), mas não tenho uma resposta específica em texto para isso no momento.\";\n        node.warn(\"Output original do NLP neste caso de 'entendido sem texto': \" + JSON.stringify(msg.originalNlpOutput)); // Log importante\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 200,
+        "wires": [
+            [
+                "87e4cec7fd4ddb40",
+                "b374838d5541be4e"
+            ]
+        ]
+    },
+    {
+        "id": "2f1466dba0411fe0",
+        "type": "function",
+        "z": "9afc03dfb863ee4b",
+        "name": "function 8",
+        "func": "msg.payload = {\n    \"content\": msg.payload.output.generic[0].text,\n    \"chatId\": msg.params.session_id,\n    \"type\": \"message\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 400,
+        "wires": [
+            [
+                "8761b4dde2713e6a",
+                "963368946a9ec08c"
+            ]
+        ]
+    },
+    {
+        "id": "b6fb00cf739301e3",
+        "type": "function",
+        "z": "9afc03dfb863ee4b",
+        "name": "function 10",
+        "func": "msg.payload = {\n    \"content\": \"O SimplifyHC Bot não consegue ver imagens.\",\n    \"chatId\": msg.payload.chatId,\n    \"type\": \"message\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 500,
+        "wires": [
+            [
+                "8761b4dde2713e6a",
+                "e2fa523b9998748e"
+            ]
+        ]
+    },
+    {
+        "id": "050fcfeb82d7062a",
+        "type": "function",
+        "z": "9afc03dfb863ee4b",
+        "name": "function 11",
+        "func": "msg.payload = {\n    \"content\": \"O SimplifyHC Bot não consegue ver Figurinhas ou gifs.\",\n    \"chatId\": msg.payload.chatId,\n    \"type\": \"message\"\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 620,
+        "wires": [
+            [
+                "8761b4dde2713e6a",
+                "b43312b5cca6470e"
+            ]
+        ]
+    },
+    {
+        "id": "cae71efcd1707ac4",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fc2c54ac3e02409b",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9e7f3b5a2855f47f",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1360,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b374838d5541be4e",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8dd5ce2735d9e0af",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "eb01cd7cb65ed612",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "dfbd2da863cececb",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1600,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "17525c49879b5563",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e2fa523b9998748e",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b43312b5cca6470e",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "963368946a9ec08c",
+        "type": "debug",
+        "z": "9afc03dfb863ee4b",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 320,
+        "wires": []
+    }
+]

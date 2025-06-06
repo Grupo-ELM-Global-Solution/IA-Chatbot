@@ -1,0 +1,51 @@
+Credenciais Node-red - Disciplina IA e Chatbot
+
+Recomeco - Grupo ELM
+
+Integrantes:
+-Enzo Okuizumi RM561432
+-Lucas Barros Gouveia RM566422
+-Milton Marcelino RM564836
+
+Vídeo do youtube:
+https://www.youtube.com/watch?v=QXLeOFwrpmw
+
+================================================
+
+Telegram bot
+
+link bot: t.me/gs_recomeco_bot
+
+username: gs_recomeco_bot
+
+token: 7648755839:AAHGcfU8Dg-0ZOtuAfAOFLZiNw-lUIurLNY
+
+================================================
+
+Watson Assistant
+
+API key: Z9djyvqbEzqY8ohMxD9Z8zwN3QJEJaUgE_0MDrCnl96r
+
+URL: https://api.us-south.assistant.watson.cloud.ibm.com/instances/ba04109b-07dd-469b-bf3a-53a3a71ae680
+
+ASsistant id: 73667876-3992-4471-b3c1-72dd36ead6ae
+
+================================================
+
+Speech to Text FIAP
+
+API key: DYqB8go1TvalSBBZ6FX8l4AuJ79mYyzifWIA8uL0E15M
+
+URL: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/00089234-3b2e-4c88-a059-418d09b01989
+
+================================================
+
+Text to Speech FIAP
+
+API key: qrdTRxWEZK2BST2IAvS5yRi41_aiqAsnRKQHHQtSVAsB
+
+URL: https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/4ea26c6b-4a9b-4501-a35f-e536b401db4b
+
+================================================
+
+Link do github: https://github.com/Grupo-ELM-Global-Solution/IA-Chatbot
